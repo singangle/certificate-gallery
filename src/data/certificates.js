@@ -5,7 +5,7 @@ export const certificates = [
     year: 2025,
     timestamp: 'August 2025',
     files: [
-      '/certificates/2025 ICAS/2025_icas_cert.pdf'
+      'certificates/2025 ICAS/2025_icas_cert.pdf'
     ],
     type: 'Academic',
     description: 'International Competitions and Assessments for Schools'
@@ -16,7 +16,7 @@ export const certificates = [
     year: 2025,
     timestamp: 'July 2025',
     files: [
-      '/certificates/2025 SYF Youth Station Project.pdf'
+      'certificates/2025 SYF Youth Station Project.pdf'
     ],
     type: 'Arts',
     description: 'Singapore Youth Festival'
@@ -27,7 +27,7 @@ export const certificates = [
     year: 2025,
     timestamp: 'June 2025',
     files: [
-      '/certificates/2025 SMO.pdf'
+      'certificates/2025 SMO.pdf'
     ],
     type: 'Competition',
     description: 'Singapore Mathematical Olympiad'
@@ -38,9 +38,9 @@ export const certificates = [
     year: 2025,
     timestamp: 'April 2025',
     files: [
-      '/certificates/2025 SASMO/Gold Cert.pdf',
-      '/certificates/2025 SASMO/IMG_2330.jpeg',
-      '/certificates/2025 SASMO/IMG_2331.jpeg'
+      'certificates/2025 SASMO/Gold Cert.pdf',
+      'certificates/2025 SASMO/IMG_2330.jpeg',
+      'certificates/2025 SASMO/IMG_2331.jpeg'
     ],
     type: 'Competition',
     description: 'Singapore and Asian Schools Math Olympiad'
@@ -51,7 +51,7 @@ export const certificates = [
     year: 2024,
     timestamp: 'October 2024',
     files: [
-      '/certificates/2024 CS50x.pdf'
+      'certificates/2024 CS50x.pdf'
     ],
     type: 'Course',
     description: 'Harvard University - Introduction to Computer Science'
@@ -62,7 +62,7 @@ export const certificates = [
     year: 2024,
     timestamp: 'October 2024',
     files: [
-      '/certificates/2024 HSI - Bronze-5.pdf'
+      'certificates/2024 HSI - Bronze-5.pdf'
     ],
     type: 'Competition',
     description: 'High School International'
@@ -73,9 +73,9 @@ export const certificates = [
     year: 2024,
     timestamp: 'August 2024',
     files: [
-      '/certificates/2024 ICAS Medal & Cert/2024 ICAS.pdf',
-      '/certificates/2024 ICAS Medal & Cert/IMG_2326.jpeg',
-      '/certificates/2024 ICAS Medal & Cert/IMG_2327.jpeg'
+      'certificates/2024 ICAS Medal & Cert/2024 ICAS.pdf',
+      'certificates/2024 ICAS Medal & Cert/IMG_2326.jpeg',
+      'certificates/2024 ICAS Medal & Cert/IMG_2327.jpeg'
     ],
     type: 'Academic',
     description: 'International Competitions and Assessments for Schools'
@@ -86,7 +86,7 @@ export const certificates = [
     year: 2024,
     timestamp: 'June 2024',
     files: [
-      '/certificates/2024_SMO.pdf'
+      'certificates/2024_SMO.pdf'
     ],
     type: 'Competition',
     description: 'Singapore Mathematical Olympiad'
