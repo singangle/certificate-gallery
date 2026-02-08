@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
@@ -10,17 +10,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 const PdfThumbnail = ({ file }) => {
-  const [numPages, setNumPages] = useState(null);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
 
   return (
     <div className="w-full h-full overflow-hidden flex items-center justify-center bg-white relative">
       <Document
         file={file}
-        onLoadSuccess={onDocumentLoadSuccess}
         className="w-full h-full flex items-center justify-center"
         loading={<div className="animate-pulse bg-gray-200 w-full h-full"></div>}
       >
